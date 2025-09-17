@@ -7,6 +7,7 @@
 </head>
 <body>
   <h1>Conceptos de la materia</h1>
+
   <form id="form-concepto">
     <input type="text" id="nombre" placeholder="Nombre del concepto" required>
     <input type="text" id="descripcion" placeholder="Descripción" required>
@@ -15,6 +16,23 @@
 
   <h2>Lista de conceptos</h2>
   <ul id="lista"></ul>
+
+  <hr>
+
+
+  <h3>Buscar concepto por ID</h3>
+  <input type="number" id="idGet" placeholder="ID">
+  <button onclick="getConceptoPorId()">Buscar</button>
+  <pre id="resultadoGet"></pre>
+
+
+  <h3>Eliminar concepto por ID</h3>
+  <input type="number" id="idDel" placeholder="ID">
+  <button onclick="deletePorId()">Eliminar</button>
+
+
+  <h3>Eliminar todos los conceptos</h3>
+  <button onclick="deleteAll()">Eliminar todos</button>
 
   <script src="script.js"></script>
 </body>
