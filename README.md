@@ -39,4 +39,4 @@ c) Dificultades del trabajo
 1. Mientras hacía el trabajo práctico, aprendí a manejar el flujo de un servidor backedn en Node.js, desde la creación del formulario en el frontende hasta la implementacion de la API REST que permite agregar, obtener y eliminar conceptos. Me ayudó a entender de manera práctica como funciona la comunicación entre el cliente y el servidor, también de como se manejan los datos en memoria de manera temporal-
 
 2. Una de las principales dificultades que encontré fue probar correctamente las peticiones de la API, ya que requería tener el servidor corriendo, enviar los datos en formato JSON y verificar las respuestas usando herramientas como curl. Para solucionar este incoveniente tuve que tener 2 pestañas de "Git Bash" al mismo tiempo.
-Por último, tuve que ser cuidadoso con el manejo de Git, especialmente al hacer el merge de mi rama "test" a "main" y subir los cambios al repositorio de Github, asegurandome de no perder ningun cambio. S
+Por último, tuve que ser cuidadoso con el manejo de Git, especialmente al hacer el merge de mi rama "test" a "main" y subir los cambios al repositorio de Github, asegurandome de no perder ningun cambio. 
